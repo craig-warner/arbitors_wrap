@@ -61,4 +61,24 @@ fn main() {
     Some(n) => println!("Selected {}",n),
     None => println!("Empty Requestor Set")
   }
+
+  let mut rrarb2 = RRArb::new(10,false);
+  rrarb2.set_request(0);
+  rrarb2.set_request(3);
+  rrarb2.set_request(5);
+  rrarb2.text_display();
+  let rrarb2_iter = rrarb2.clone().iter();
+  for rq in rrarb2_iter {
+    println!("Requestor {}",rq);
+    if rq == 0 {
+      rrarb2.grant(rq);
+    }
+  } 
+  rrarb2.text_display();
+  let rrarb2_iter = rrarb2.clone().iter();
+  for rq in rrarb2_iter {
+    println!("Requestor {}",rq);
+  }
+  rrarb2.text_display();
+
 }
