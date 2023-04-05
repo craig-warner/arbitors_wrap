@@ -1,0 +1,3 @@
+(function() {var implementors = {
+"arbitor":[["impl Freeze for <a class=\"struct\" href=\"arbitor/arbitor/struct.RRArb.html\" title=\"struct arbitor::arbitor::RRArb\">RRArb</a>",1,["arbitor::arbitor::RRArb"]],["impl Freeze for <a class=\"struct\" href=\"arbitor/arbitor/struct.RRArbIterator.html\" title=\"struct arbitor::arbitor::RRArbIterator\">RRArbIterator</a>",1,["arbitor::arbitor::RRArbIterator"]]]
+};if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

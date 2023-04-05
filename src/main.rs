@@ -3,7 +3,7 @@ extern crate colored; // not needed in Rust 2018
 use clap::{crate_version,App,Arg};
 use std::process;
 use colored::*;
-use arbitors::rrarb::RRArb;
+use arbitor::arbitor::RRArb;
 
 // Round Robin Arbitor Wrapper
 // * Tests Arbitor
